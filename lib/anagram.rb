@@ -8,7 +8,7 @@ class Anagram
     @word = word
   end
   
-  def self.match(array)
+  def match(array)
     array.each {|w| w.split("").sort == @word.split("").sort }
     #binding.pry
   end
