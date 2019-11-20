@@ -9,8 +9,8 @@ class Anagram
   end
   
   def match(array)
-    binding.pry
     array.select{|w| w.split.sort}
+    binding.pry
   end
     
   
