@@ -9,7 +9,7 @@ class Anagram
     binding.pry
   end
   
-  def self.match
+  def match
     
   end
     
